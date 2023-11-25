@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@responsive {
+  .paragraph{
+    // font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+  }
+  .heading_1{
+    // color: var(--MAin, #67A2FF);
+    // font-family: Gilroy-SemiBold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .heading_2{
+
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .heading_3{
+    // color: var(--Font-1, #383E45);
+    // font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+// body {
+//   @apply bg-gray-100 text-gray-700;
+// }
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=PT+Serif&display=swap');
+@font-face {
+  font-family: "gilroy";
+  src: local("gilroy"),
+    url("./../../../public/font/Gilroy-Regular.ttf") format("truetype");
+}
+.container {
+  @apply max-w-[1320px] mx-auto px-4;
+}
+
+// .ant-form-item-label {
+//   label {
+//     @apply font-semibold text-gray-700 #{!important};
+//   }
+// }
+
+// .form-control {
+//   @apply block bg-transparent w-full border-b border-gray-500 rounded-lg px-4 py-3 focus:outline-none focus:border-heading;
+
+//   &::placeholder {
+//     @apply text-gray-600 font-medium;
+//   }
+// }
+
+// .contact .form-control {
+//   @apply block bg-transparent w-full border-b border-b-bodyText rounded-none px-0 pt-0 pb-2 focus:outline-none focus:border-mainColor text-bodyText text-base;
+//   &::placeholder {
+//     @apply text-gray-400 font-medium;
+//   }
+// }
+
+.ant-form-item-label label {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional):before {
+  display: none !important;
+}
+
+.ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional):after {
+  display: inline-block !important;
+  content: "*";
+  @apply text-orange-500 text-sm mt-0.5 ml-1.5 visible;
+}
+
+
+
+
+// .swiper {
+//   // width: 640px;
+//   //   height: 320px;
+// }
+
+// .swiper-slide {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 18px;
+//   font-size: 22px;
+//   font-weight: bold;
+//   color: #fff;
+// }
+
+// .swiper-slide:nth-child(1n) {
+//   background-color: rgb(206, 17, 17);
+// }
+
+// .swiper-slide:nth-child(2n) {
+//   background-color: rgb(0, 140, 255);
+// }
+
+// .swiper-slide:nth-child(3n) {
+//   background-color: rgb(10, 184, 111);
+// }
+
+// .swiper-slide:nth-child(4n) {
+//   background-color: rgb(211, 122, 7);
+// }
+
+// .swiper-slide:nth-child(5n) {
+//   background-color: rgb(118, 163, 12);
+// }
+
+// .swiper-slide:nth-child(6n) {
+//   background-color: rgb(180, 10, 47);
+// }
+
+// .swiper-slide:nth-child(7n) {
+//   background-color: rgb(35, 99, 19);
+// }
+
+// .swiper-slide:nth-child(8n) {
+//   background-color: rgb(0, 68, 255);
+// }
+
+// .swiper-slide:nth-child(9n) {
+//   background-color: rgb(218, 12, 218);
+// }
+
+// .swiper-slide:nth-child(10n) {
+//   background-color: rgb(54, 94, 77);
+// }
+.testimonials-slider {
+
+  .swiper-slide:nth-child(n) {
+    background-color: white;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    border-radius: 5px;
+
+  }
+}
