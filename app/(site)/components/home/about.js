@@ -1,5 +1,6 @@
 "use client"
 import { Progress } from 'antd'
+import Link from 'next/link'
 import React, { useState } from 'react'
 
 const About = () => {
@@ -44,7 +45,9 @@ const [active,setActive] = useState('skill')
                                     <Progress percent={75} showInfo={false} strokeColor='#67A2FF' />
                                 </div>
                             </div>
-                            <button className='bg-mainColor mt-10  text-white px-8 py-3 rounded-lg hover:border-mainColor border duration-300 hover:text-mainColor border-transparent hover:bg-transparent'>Download CV</button>
+                            <Link href="https://drive.usercontent.google.com/download?id=1m0J6zezw8EirXhcLe2rpBDcc_sHMxZHC&export=download&authuser=0&confirm=t&uuid=dfeea477-6acc-4b20-a74c-1652871ef90b&at=APZUnTUEEDmgkITCOFXRsjKO1No4:1700907445125">
+                                <button className='bg-mainColor mt-10  text-white px-8 py-3 rounded-lg hover:border-mainColor border duration-300 hover:text-mainColor border-transparent hover:bg-transparent'>Download CV</button>
+                            </Link>
                         </div>
 
                     </div>

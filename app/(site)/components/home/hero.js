@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Hero = () => {
@@ -24,7 +25,9 @@ const Hero = () => {
                             I've been working on websites, apps, dashboards, designs
                             for more than a year.
                         </p>
+                        <Link href='#work'>
                         <button className='md:py-[18px] py-4 md:px-[50px] px-[30px] rounded-lg border-none bg-mainColor text-bodyText md:text-[22px] text-[18px] hover:bg-bodyText hover:text-mainColor hover:border duration-300 mr-6'>Projects</button>
+                        </Link>
                         <button className='md:py-[18px] py-4 md:px-[50px] px-[30px] rounded-lg bg-transparent text-bodyText md:text-[22px] text-[18px] hover:bg-bodyText  border hover:text-mainColor border-bodyText duration-300'>Hire Me</button>
                     </div>
                     <div className=" basis-1/2 md:pb-0 pb-8">

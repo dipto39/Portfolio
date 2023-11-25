@@ -16,12 +16,12 @@ const Work = () => {
                 <div className=" ">
                     <div className="flex md:flex-row flex-col gap-8">
                         <div className="basis-2/3">
-                        <Link href={'/'}>
+                        <Link href={'https://www.behance.net/saifullahkitron1'}>
                             <img src="/w1.png" className='h-full w-full rounded-lg' alt="" />
                         </Link>
                         </div>
                         <div className="basis-1/3">
-                        <Link href={'/'}>
+                        <Link href={'https://www.behance.net/saifullahkitron1'}>
                             <img src="/w2.png" alt="" className='h-full w-full rounded-lg' />
                         </Link>
                         </div>
@@ -29,17 +29,17 @@ const Work = () => {
                     <div className="flex md:flex-row flex-col gap-8 mt-6">
 
                         <div className="basis-1/3">
-                        <Link href={'/'}>
+                        <Link href={'https://www.behance.net/saifullahkitron1'}>
                         <img src="/w3.png" className='h-full w-full rounded-lg' alt="" />
                         </Link>
                         </div>
                         <div className="basis-1/3">
-                        <Link href={'/'}>
+                        <Link href={'https://www.behance.net/saifullahkitron1'}>
                             <img src="/w4.png" alt="" className='h-full w-full rounded-lg' />
                         </Link>
                         </div>
                         <div className="basis-1/3">
-                        <Link href={'/'}>
+                        <Link href={'https://www.behance.net/saifullahkitron1'}>
                             <img src="/w5.png" alt="" className='h-full w-full rounded-lg' />
                         </Link>
                         </div>

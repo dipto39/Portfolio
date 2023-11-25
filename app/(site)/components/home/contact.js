@@ -12,8 +12,8 @@ const Contact = () => {
                         <div className=" grid  md:py-20 p-5 gap-8">
                             <div className="flex justify-evenly items-center">
                                 <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='https://www.facebook.com/profile.php?id=100094606275744&mibextid=ZbWKwL' className=''>
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='https://www.facebook.com/profile.php?id=100094606275744&mibextid=ZbWKwL' >
                                             <FaFacebookF className="!font-bold" />
                                         </Link>
                                     </div>
@@ -21,8 +21,8 @@ const Contact = () => {
                                 </div>
 
                                  <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='tel:01611965352' className=''>
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='tel:01611965352' >
                                             <FaWhatsapp className="!font-bold" />
                                         </Link>
                                     </div>
@@ -31,16 +31,16 @@ const Contact = () => {
                             </div>
                             <div className="flex justify-evenly items-center">
                             <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='https://www.behance.net/saifullahkitron1' className='' >
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='https://www.behance.net/saifullahkitron1' >
                                             <FaBehance className="!font-bold" />
                                         </Link>
                                     </div>
                                     <h1 className='text-center text-white'>Behance</h1>
                                 </div>
                                 <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='https://dribbble.com/dannalismith' className=''>
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='https://dribbble.com/dannalismith' >
                                             <FaDribbble className="!font-bold" />
                                         </Link>
                                     </div>
@@ -49,16 +49,16 @@ const Contact = () => {
                             </div>
                             <div className="flex justify-evenly items-center">
                             <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='https://www.linkedin.com/in/saifullah-kiron-324ab2277/' className=''>
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='https://www.linkedin.com/in/saifullah-kiron-324ab2277/' >
                                             <FaLinkedinIn className="!font-bold" />
                                         </Link>
                                     </div>
                                     <h1 className='text-center text-white'>Linkdin</h1>
                                 </div>
                                 <div className="">
-                                    <div className=" text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold">
-                                        <Link href='https://twitter.com/saifullahcse18' className=''>
+                                    <div className=" ">
+                                        <Link className="text-4xl rounded-lg h-[90px] w-[90px] flex justify-center items-center text-dark bg-bodyText mx-2 !font-bold" href='https://twitter.com/saifullahcse18' >
                                             <FaTwitter className="!font-bold" />
                                         </Link>
                                     </div>
