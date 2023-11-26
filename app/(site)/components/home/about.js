@@ -6,11 +6,11 @@ import React, { useState } from 'react'
 const About = () => {
 const [active,setActive] = useState('skill')
     return (
-        <section className='my-[140px]' id='about'>
+        <section className='my-[140px] pt-10' id='about'>
             <div className="container mx-auto">
                 <div className="lg:flex items-end ">
                     <div className="basis-1/2 lg:mr-[80px] relative md:flex hidden items-end ju">
-                        <div className="md:h-[626px] md:w-[536px] relative "  style={{ background: "linear-gradient(180deg, #67A2FF 0%, rgba(103, 162, 255, 0.00) 100%)" }}>
+                        <div className="md:h-[626px] md:w-[536px] relative rounded-xl "  style={{ background: "linear-gradient(180deg, #67A2FF 0%, rgba(103, 162, 255, 0.00) 100%)" }}>
                             <img src="/about.png" className=' absolute bottom-0' alt="" />
                         </div>
                     </div>
